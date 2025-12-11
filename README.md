@@ -1,4 +1,3 @@
-```markdown
 # MediDocs - Patient Document Management Portal
 
 A full-stack web application for managing medical documents (PDFs). Built with React, Node.js/Express, and SQLite.
@@ -72,7 +71,7 @@ The backend follows **MVC pattern** with separation of concerns:
 - **Middleware** (`middleware.js`) - File upload, validation, error handling
 - **Server** (`server.js`) - Application entry point
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Node.js (v20.19.0 or higher)
@@ -116,8 +115,7 @@ Frontend will run on `http://localhost:5173`
 POST /api/documents/upload
 Content-Type: multipart/form-data
 
-curl -X POST http://localhost:5000/api/documents/upload \
-  -F "file=@prescription.pdf"
+curl -X POST http://localhost:5000/api/documents/upload \-F "file=@prescription.pdf"
 ```
 
 **Response (Success - 201):**
