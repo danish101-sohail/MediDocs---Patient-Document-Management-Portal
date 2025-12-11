@@ -1,7 +1,5 @@
-```markdown
 # MediDocs - Patient Document Management Portal
 ## Design Document
-
 ---
 
 ## 1. Tech Stack Choices
@@ -216,6 +214,3 @@ curl -X DELETE http://localhost:5000/api/documents/1
 ---
 
 **End of design.md**
-
-```
-```
